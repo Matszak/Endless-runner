@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody rb;
     [SerializeField] private float speed;
-    [SerializeField] private Vector3 direction;
 
     private void Start()
     {

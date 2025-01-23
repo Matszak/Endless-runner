@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6312427852831217478}
   - component: {fileID: 4425079226382287859}
   - component: {fileID: 8726618132889516022}
-  - component: {fileID: -2804596512864476598}
+  - component: {fileID: 3956140002560688155}
   m_Layer: 0
   m_Name: Straight
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943385074866985106}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 3964968958281225299}
   - {fileID: 8266417042417331507}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &6312427852831217478
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -109,26 +109,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &-2804596512864476598
-MonoBehaviour:
+--- !u!65 &3956140002560688155
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943385074866985106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 185ffcf11b1baa2469ee71fa817e7915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  straightSegments:
-  - {fileID: 1943385074866985106}
-  leftTurnSegment: {fileID: 8969172650546562091, guid: bb7469fb54c64f549b4816cc7930540d,
-    type: 3}
-  rightTurnSegment: {fileID: 4373489117088325318, guid: 7d9065fea84fc784c9e891824b351f17,
-    type: 3}
-  segmentsBeforeTurn: 5
-  seed: 0
+  serializedVersion: 3
+  m_Size: {x: 1.45, y: 4.43, z: 10}
+  m_Center: {x: -3.64, y: 2.17, z: 0}
 --- !u!1 &4039867039544415425
 GameObject:
   m_ObjectHideFlags: 0
