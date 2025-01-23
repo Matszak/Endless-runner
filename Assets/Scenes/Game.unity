@@ -157,7 +157,9 @@ MonoBehaviour:
   - {fileID: 4373489117088325318, guid: 738c733c296ae0c42b05aa5c17bdfde1, type: 3}
   - {fileID: 8969172650546562091, guid: 97fdea4e044d0454baf14460c29701e6, type: 3}
   lastTile: {fileID: 0}
-  tileOffset: 1
+  tileOffset: 10
+  direction: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!4 &1306769407
 Transform:
   m_ObjectHideFlags: 0
@@ -431,7 +433,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  direction: {x: 0, y: 0, z: 0}
 --- !u!54 &1724368079
 Rigidbody:
   m_ObjectHideFlags: 0
